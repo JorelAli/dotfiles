@@ -2,11 +2,50 @@
 *
 
 # Except these files:
-!.lesskey
+
+### Non-dotfiles ##################################################
+
+# init.java - A file consisting of a tonne of imports and a clear
+# function. To by used with jshell and the `jshell init.java` cmd
+!init.java
+
+### Dotfiles ######################################################
+
+# Lesskey - Redefines the keybindings for the `less` pager command
+# Changes the `h` key to `quit` instead of help (becomes more vim-
+# like to have h as the "back" key. Use the `lesskey` command
+!.lesskey               
+
+# Gitignore - This file specifies what dotfiles are available in
+# this repository.
 !.gitignore
+
+# Background image - Used by i3 (or NixOS) to set the background
+# image desktop wallpaper for my i3 setup
 !.background_image
+
+# Xmodmap - Use with the `xmodmap .XModmap` command to update the
+# keybindings on ThinkPad 13 2nd gen such that PgUp = Home and
+# PgDn = End (which are next to the arrow keys)
 !.Xmodmap
+
+### Configuration files ###########################################
+
+# i3 configuration - Configuration for the i3 window manager. 
+# Includes configuration file for i3 and i3status-rs (status bar)
 !.config/i3/*
+
+# qt5 configuration - Configuration for the qt5 GUI toolkit to set
+# custom themes. Utilise it with the `qt5ct` command
 !.config/qt5ct/*
+
+# Rofi configuration - Configuration for rofi, a dmenu replacement.
+# Includes solarized-dark theme for rofi
 !.config/rofi/*
+
+# Zathura configuration - Configuration for zathura, a PDF viewer.
+# Consists of the solarized dark for zathura
 !.config/zathura/*
+
+# GTK3+ configuration - States what themes and icons are in use.
+!.config/gtk-3.0/* 
