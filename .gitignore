@@ -7,3 +7,6 @@
 !.background_image
 !.Xmodmap
 !.config/i3/*
+!.config/qt5ct/*
+!.config/rofi/*
+!.config/zathura/*
