@@ -1,0 +1,66 @@
+theme = "solarized-dark"
+icons = "awesome"
+
+[[block]]
+block = "focused_window"
+max_width = 21
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "memory"
+clickable = false
+format_mem = "{MUm}/{MTm}MB ({MUp}%)"
+interval = 2
+warning_mem = 80.0
+critical_mem = 95.0
+
+[[block]]
+block = "net"
+device = "wlp3s0"
+ip = true 
+speed_up = false 
+speed_down = true 
+interval = 2
+
+[[block]]
+block = "splitstatus"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "battery"
+upower = true
+device = "BAT1"
+
+[[block]]
+block = "backlight"
+
+[[block]]
+block = "nightlight"
+color_temperature = 4500
+
+[[block]]
+block = "music"
+buttons = ["prev", "play", "next"]
+
+#[[block]]
+#block = "toggle"
+#text = "NM"
+#command_state = "redshift -vx | grep Color"
+#command_on = "redshift -O 4500K"
+#command_off = "redshift -x"
+#icon_on = "moon"
+#icon_off = "sun"
+
+#[[block]]
+#block = "speedtest"
+#bytes = true
+
+[[block]]
+block = "time"
+interval = 1
+format = "%a %e %b %r"

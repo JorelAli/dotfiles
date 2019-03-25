@@ -4,3 +4,6 @@
 # Except these files:
 !.lesskey
 !.gitignore
+!.background_image
+!.Xmodmap
+!.config/i3/*
