@@ -49,3 +49,7 @@
 
 # GTK3+ configuration - States what themes and icons are in use.
 !.config/gtk-3.0/* 
+
+# Ghostwriter configuration - Configuration for ghostwriter, a 
+# markdown editor. Includes the solarized dark theme
+!.config/ghostwriter/*
