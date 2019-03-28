@@ -22,8 +22,8 @@ block = "net"
 device = "wlp3s0"
 ip = true 
 speed_up = false 
-speed_down = true 
-interval = 2
+speed_down = false
+bitrate = true
 
 [[block]]
 block = "splitstatus"
