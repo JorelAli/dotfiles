@@ -12,7 +12,7 @@ interval = 1
 [[block]]
 block = "memory"
 clickable = false
-format_mem = "{MUm}/{MTm}MB ({MUp}%)"
+format_mem = "{Mum}/{MTm}MB ({Mupi}%)"
 interval = 2
 warning_mem = 80.0
 critical_mem = 95.0
@@ -30,6 +30,7 @@ block = "splitstatus"
 
 [[block]]
 block = "sound"
+step_width = 1
 
 [[block]]
 block = "battery"
