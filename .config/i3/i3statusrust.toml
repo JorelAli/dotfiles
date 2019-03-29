@@ -12,9 +12,9 @@ interval = 1
 [[block]]
 block = "memory"
 clickable = false
-format_mem = "{Mum}/{MTm}MB ({Mupi}%)"
+format_mem = "{Mum}/{MTm}MB ({Mupi}%) ({MUpi}%)*"
 interval = 2
-warning_mem = 80.0
+warning_mem = 90.0
 critical_mem = 95.0
 
 [[block]]
