@@ -215,7 +215,8 @@ bar {
 #status_command i3status
 #        status_command i3status-rs ~/.config/i3/i3statusrust.toml
         status_command ~/github/i3status-rust/target/release/i3status-rs ~/.config/i3/i3statusrust.toml
-        font pango:DejaVu Sans Mono, FontAwesome 12
+        font pango: Fira Code Medium, FontAwesome 12
+#DejaVu Sans Mono, FontAwesome 12
         position bottom
 
         colors {
