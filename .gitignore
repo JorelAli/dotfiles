@@ -53,3 +53,5 @@
 # Ghostwriter configuration - Configuration for ghostwriter, a 
 # markdown editor. Includes the solarized dark theme
 !.config/ghostwriter/*
+
+!.config/dunst/*
