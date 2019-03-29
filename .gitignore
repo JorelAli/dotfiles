@@ -54,4 +54,6 @@
 # markdown editor. Includes the solarized dark theme
 !.config/ghostwriter/*
 
+# Dunst configuration - Configuration for dunst, a notification
+# daemon.
 !.config/dunst/*
