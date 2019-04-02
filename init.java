@@ -18,3 +18,38 @@ import java.util.stream.*;
 public void clear() { //literally prints out "Ctrl + L"
 	System.out.println("\033[H\033[2J");
 }
+
+public double solveRatio() {
+	Scanner s = new Scanner(System.in);
+	String str = s.nextLine();
+	String str2 = s.nextLine();
+	String[] a1 = str.replace(" ", "").split(":");
+	String[] a2 = str2.replace(" ", "").split(":");
+
+	int index = 0;
+
+	//Find index
+	if(a1[0].equals("?")) {
+		index = 0;
+	} else if(a1[1].equals("?")) {
+		index = 1;
+	} else if(a2[0].equals("?")) {
+		index = 2;
+	} else {
+		index = 3;
+	}
+
+	double result = 0;
+	switch(index) {
+		case 0:
+			return Double.parseDouble(a1[1]) * Double.parseDouble(a2[0]) / Double.parseDouble(a2[1]);
+		case 1:
+			return Double.parseDouble(a1[0]) * Double.parseDouble(a2[1]) / Double.parseDouble(a2[0]);
+		case 2:
+			return Double.parseDouble(a2[1]) * Double.parseDouble(a1[0]) / Double.parseDouble(a1[1]);
+		case 3:
+			return Double.parseDouble(a2[0]) * Double.parseDouble(a1[1]) / Double.parseDouble(a1[0]);
+	}
+	return 0;
+
+}
