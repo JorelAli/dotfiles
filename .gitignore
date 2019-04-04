@@ -57,3 +57,8 @@
 # Dunst configuration - Configuration for dunst, a notification
 # daemon.
 !.config/dunst/*
+
+# Konsole configuration - Configuration for konsole terminal 
+# emulator. Solarized dark theme, no scroll bar or menu bar
+!.config/konsolerc
+!.local/share/konsole/*
