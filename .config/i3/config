@@ -67,6 +67,8 @@ bindsym $mod+Shift+q exec chromium
 bindsym $mod+Shift+n exec chromium --incognito
 bindsym $mod+j exec konsole -e jshell ~/init.java
 
+bindsym $mod+b exec feh --bg-scale $(ls -d $HOME/Wallpapers/* | shuf -n 1)
+
 # kill focused window
 #bindsym $mod+Shift+q kill
 bindsym Mod1+F4 kill
