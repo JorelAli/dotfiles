@@ -66,6 +66,10 @@ bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+q exec chromium
 bindsym $mod+Shift+n exec chromium --incognito
 bindsym $mod+j exec konsole -e jshell ~/init.java
+bindsym $mod+Shift+p sticky toggle
+
+bindsym $mod+Shift+plus move scratchpad
+bindsym $mod+Shift+minus scratchpad show
 
 bindsym $mod+b exec feh --bg-scale $(ls -d $HOME/Wallpapers/* | shuf -n 1)
 
