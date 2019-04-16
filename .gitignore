@@ -62,3 +62,6 @@
 # emulator. Solarized dark theme, no scroll bar or menu bar
 !.config/konsolerc
 !.local/share/konsole/*
+
+# Vim log - A log of all of the stuff that I've learnt in vim
+!vim.md
