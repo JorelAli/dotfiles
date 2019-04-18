@@ -65,3 +65,7 @@
 
 # Vim log - A log of all of the stuff that I've learnt in vim
 !vim.md
+
+# Face icons - Icons for the desktop lockscreen sddm
+!.face
+!.face.icon
