@@ -38,7 +38,7 @@ bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+q exec chromium
 bindsym $mod+Shift+n exec chromium --incognito
 bindsym $mod+j exec konsole -e jshell ~/init.java
-bindsym $mod+e exec dolphin 
+bindsym $mod+e exec dolphin -stylesheet ~/.config/qt5ct/qss/DolphinFix.qss 
 
 # 'pin' windows that are floating
 bindsym $mod+Shift+p sticky toggle

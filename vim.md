@@ -2,7 +2,7 @@
 
 ## 10th April 2019
 ### Marks
-Make "bookmarks" within a file to quickly jump around a file. To do this, you can use `m#` where # is a letter to set a bookmark. To view bookmarks, you type `:marks`. To teleport to a predefined bookmark, use ``#` where `#` is the bookmark letter 
+Make "bookmarks" within a file to quickly jump around a file. To do this, you can use `m#` where # is a letter to set a bookmark. To view bookmarks, you type `:marks`. To teleport to a predefined bookmark, use ``#` `` where `#` is the bookmark letter 
 
 ### Shell switching
 So, when you want to "go back" to the shell to see  what you've typed, you can just use `:!` (the empty command) and it'll make an entry. If you want to use the shell for more than 1 command, you can always just open another shell (e.g. `:!fish`)
@@ -38,3 +38,7 @@ To copy to the main clipboard, you use `"+y`. `+` is the name of a register for 
 ## 16th April 2019
 ### Delete til end
 To delete from the current position to the end of the line, do NOT use `dt` (delete til...). Instead, use `d$` or, even better, just use `D`. 
+
+## 4th May 2019
+### Go back to last location
+When opening a file, if you want to go back to where you were last editing something, you can type `'"` to go back to that previous locaiton.
