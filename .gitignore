@@ -38,6 +38,7 @@
 # qt5 configuration - Configuration for the qt5 GUI toolkit to set
 # custom themes. Utilise it with the `qt5ct` command
 !.config/qt5ct/*
+!.config/qt5ct/qss/*
 
 # Rofi configuration - Configuration for rofi, a dmenu replacement.
 # Includes solarized-dark theme for rofi
