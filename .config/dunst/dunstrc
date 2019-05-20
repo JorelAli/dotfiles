@@ -29,7 +29,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-30+20"
+    geometry = "600x5-30+20"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -165,7 +165,8 @@
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+#    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /run/current-system/sw/share/icons/breeze/status/16/:/run/current-system/sw/share/icons/breeze/devices/16/
 
     ### History ###
 
@@ -179,10 +180,12 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/dmenu -p dunst:
+#    dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = /run/current-system/sw/bin/rofi -dmenu -p dunst:
 
     # Browser for opening urls in context menu.
-    browser = /usr/bin/firefox -new-tab
+#    browser = /usr/bin/firefox -new-tab
+    browser = xdg-open
 
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
@@ -209,6 +212,11 @@
     # is connected or disconnected which might break follow mode if the screen
     # layout changes.
     force_xinerama = false
+
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
 
 # Experimental features that may or may not work correctly. Do not expect them
 # to have a consistent behaviour across releases.
