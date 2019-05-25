@@ -137,4 +137,4 @@ configuration {
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-rofi.theme: /run/current-system/sw/share/rofi/themes/solarized_alternate.rasi
+rofi.theme: /home/jorel/.config/rofi/solarized_alternate.rasi
