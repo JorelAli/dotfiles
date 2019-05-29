@@ -59,7 +59,7 @@ public class init {
 		addTime(new SimpleDateFormat("HH:mm").format(new Date()), str);
 	}
 
-	public double solveRatio() {
+	public static double solveRatio() {
 		Scanner s = new Scanner(System.in);
 		String str = s.nextLine();
 		String str2 = s.nextLine();
@@ -92,6 +92,15 @@ public class init {
 		}
 		return 0;
 
+	}
+
+	public static void simplify(long num, long denom) {
+		long div = gcd(num, denom);
+		System.out.println((num / div) + "/" + (denom / div));
+	}
+
+	public static long gcd(long a, long b) {
+		return b == 0 ? a : gcd(b, a % b);
 	}
 
 }
