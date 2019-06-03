@@ -1,7 +1,7 @@
 # Use the 'Windows (super) key as my modifier
 set $mod Mod4
 
-# Set default fomr to Fira Code Medium
+# Set default font to Fira Code Medium
 font pango:Fira Code Medium 12
 
 # Fix any keybindings whenever i3 starts
@@ -155,6 +155,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command ~/github/i3status-rust/target/release/i3status-rs ~/.config/i3/i3statusrust.toml
         font pango: Fira Code Medium, FontAwesome 12
+#        font pango: FuraCode Nerd Font Medium 12, FontAwesome 12 #, FontAwesome 12
+#
+#		Inconsolata Nerd Font Mono Medium 8
+#        font pango: FuraCode Nerd Font Medium 12
         position bottom
 
         colors {
