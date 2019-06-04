@@ -103,4 +103,8 @@ public class init {
 		return b == 0 ? a : gcd(b, a % b);
 	}
 
+	public static boolean isPrime(long num) {
+		return BigInteger.valueOf(num).isProbablePrime(1000);
+	}
+
 }
