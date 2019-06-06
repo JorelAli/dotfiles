@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Solarized
-Font=Fira Code Medium,12,-1,5,57,0,0,0,0,0
+Font=Fira Code Medium,12,-1,5,57,0,0,0,0,0,Regular
 
 [General]
 Icon=nix-snowflake
