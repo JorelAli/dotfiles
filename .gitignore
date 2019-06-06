@@ -74,3 +74,6 @@
 # Bin directory - Sneaky scripts which are added to my $PATH
 !./bin
 !./bin/*
+
+# A bunch of nix functions and things that I've written
+!./nixprojects/*
