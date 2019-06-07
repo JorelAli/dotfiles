@@ -1,19 +1,22 @@
-let inherit (builtins) 
-isInt foldl' genList 
-currentTime toString 
-div head fromJSON split
-add mul; in rec {
+#let inherit (builtins) 
+#isInt foldl' genList 
+#currentTime toString 
+#div head fromJSON split
+#add mul; in rec {
+  with builtins; rec {
   abs = x: if x < 0 then x * -1 else x;
+  
+  toInt = str:
+      let may_be_int = fromJSON str; in
+      if isInt may_be_int
+        then may_be_int
+        else throw "Could not convert ${str} to int."; 
+
   
   # Floor' has this bug:
   # math.floor (-1)   => -1
   # math.floor (-1.0) => -2
   floor' = x: 
-    let toInt = str:
-      let may_be_int = fromJSON str; in
-      if isInt may_be_int
-        then may_be_int
-        else throw "Could not convert ${str} to int."; in 
     if isInt x 
       then x 
       else 
@@ -58,5 +61,13 @@ add mul; in rec {
       2 * (1.0 / (2 * k + 1)) * (pow zs (2 * k + 1))
     ) precision; in
     foldl' add 0 (ln' x 1000);
+
+  unsafeRand = bound: unsafeRandRange 0 bound;
+  unsafeRandRange = min: max: toInt (builtins.readFile 
+    (builtins.fetchurl {
+      url="https://www.random.org/integers/?num=1&min=${toString min}&max=${toString max}&col=1&base=10&format=plain&rnd=new";
+      name="rand";
+    }));
+
     
 }
