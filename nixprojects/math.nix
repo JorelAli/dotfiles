@@ -13,17 +13,26 @@
         else throw "Could not convert ${str} to int."; 
 
   
-  # Floor' has this bug:
-  # math.floor (-1)   => -1
-  # math.floor (-1.0) => -2
-  floor' = x: 
+  floatToInt = int: toInt (head (split "\\." (toString int)));
+
+  floor = x: 
     if isInt x 
       then x 
       else 
-        let result = toInt 
-          (head (split "\\." (toString x))); 
-        in if x < 0 then result - 1 else result;
-  ceil = x: 1 + (floor' x);
+      let result = floatToInt x;
+        in if x > 0 || x - result == 0 
+          then result 
+          else result - 1;
+
+  ceil = x: 
+    if isInt x 
+      then x 
+      else 
+      let result = floatToInt x;
+        in if x > 0 
+          then result + 1
+          else result;
+
 
   mod = base: int: base - (int * (div base int));
 

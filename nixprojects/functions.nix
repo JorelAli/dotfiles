@@ -1,6 +1,5 @@
 let 
 
-  mod = import ./mod.nix;
   isPrime = import ./isPrime.nix;
   math = import ./math.nix;
 

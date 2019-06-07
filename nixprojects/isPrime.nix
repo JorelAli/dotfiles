@@ -2,7 +2,7 @@ inputNum:
 
 let
   
-  mod = import ./mod.nix;
+  mod = (import ./math.nix).mod;
   myList = num: builtins.genList (x: x + 2) (num - 2);
   primeMap = num: list: builtins.map (x: mod num x) list;
 
