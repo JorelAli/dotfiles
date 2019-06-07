@@ -36,7 +36,17 @@ rec {
     if builtins.isInt power 
       then builtins.foldl' builtins.mul 1 (builtins.genList (val: x) power)
       else throw "Power must be an integer";
-#  sqrt = 2;
+
+  sqrt = x: sqrt' x 0.1 2 100;
+
+  sqrt' = x: x0: root: iter: let
+    num = (pow x0 root) - x;
+    denom = x0 * root;
+    x1 = x0 - (num / denom);
+  in if iter == 0 
+    then x0 
+    else sqrt' x x1 root (iter - 1);
+
 
   
 }
