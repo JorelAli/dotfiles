@@ -1,10 +1,13 @@
+with builtins;
 let 
 
   isPrime = import ./isPrime.nix;
   math = import ./math.nix;
 
 in {
-  inherit mod isPrime math;
+  inherit isPrime math;
+
+  rev = xs: foldl' (acc: x: [x] ++ acc) [] xs;
 }
 
 /*

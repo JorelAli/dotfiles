@@ -125,7 +125,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s</b>\n%b"
+    format = "<b>%s %p</b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -159,14 +159,16 @@
     ### Icons ###
 
     # Align icons left/right/off
-    icon_position = off
+    icon_position = left 
 
     # Scale larger icons down to this size, set to 0 to disable
     max_icon_size = 32
 
     # Paths to default icons.
 #    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-    icon_path = /run/current-system/sw/share/icons/breeze/status/16/:/run/current-system/sw/share/icons/breeze/devices/16/
+    icon_path = /run/current-system/sw/share/icons/Papirus-Light/16x16/status/:/run/current-system/sw/share/icons/Papirus-Light/16x16/devices/
+	
+	#/run/current-system/sw/share/icons/breeze/status/16/:/run/current-system/sw/share/icons/breeze/devices/16/
 
     ### History ###
 
