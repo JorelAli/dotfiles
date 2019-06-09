@@ -19,4 +19,6 @@ Example:
 
 builtins.exec ["echo" "\"hello\""]
 
+In more other news, this:
+nix repl --option allow-unsafe-native-code-during-evaluation true
 */
