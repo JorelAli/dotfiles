@@ -1,7 +1,6 @@
 with builtins; rec {
 
   /* 
-
     Runs a SAT solver on a function and the number of atoms declared in that function,
     then outputs a single valid valuation that satisfies the expression
 
@@ -12,7 +11,6 @@ with builtins; rec {
          true 
 
     satSolve :: (a -> ... -> bool) -> int -> bool
-
   */
   satSolve = func: numAtoms: 
   let boolsPowerset = permuteBools numAtoms; in
@@ -21,13 +19,9 @@ with builtins; rec {
     then trace "Expression not satisfiable" result
     else result;
 
-  /*
-    Prints all valuations which satisfy the input expression (see satSolve)
-  */
+  /* Prints all valuations which satisfy the input expression (see satSolve) */
   satSolvePrintAll = func: numAtoms: 
-  let boolsPowerset = permuteBools numAtoms; in
-  let result = foldl' (acc: bools: printStatus bools func) [] boolsPowerset; in
-    trace (if !result then "No valuations were found" else "Valuations were found") result;
+    foldl' (acc: bools: printStatus bools func) [] (permuteBools numAtoms);
 
   printStatus = bools: func: 
     let result = apply func bools; in
