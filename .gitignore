@@ -76,4 +76,4 @@
 !./bin/*
 
 # A bunch of nix functions and things that I've written
-!./nixprojects/*
+!nixprojects/*
