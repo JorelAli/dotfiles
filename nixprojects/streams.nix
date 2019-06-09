@@ -7,6 +7,4 @@ with builtins; rec {
     if n == 0 then []
     else (take (n - 1) stream) ++ [(stream.stream n)];
   
-  
-
 }

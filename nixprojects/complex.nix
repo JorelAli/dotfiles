@@ -3,7 +3,7 @@ with builtins; rec {
 
   conjugate = {re, im} @ x: assert isComplex x; { 
     inherit re;
-    im = (-1) * x.im;
+    im = (-1) * im;
   };
 
   addComplex = x: assert isComplex x; y: assert isComplex y; {
