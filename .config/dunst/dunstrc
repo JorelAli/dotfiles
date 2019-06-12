@@ -301,6 +301,10 @@
     summary = "*"
     script = /home/jorel/.config/dunst/notifsound.sh
 
+[konsole_sound]
+    summary = "Konsole"
+    script = /home/jorel/.config/dunst/notifsoundkonsole.sh
+
 #[espeak]
 #    summary = "*"
 #    script = dunst_espeak.sh
