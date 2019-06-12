@@ -41,7 +41,7 @@ bindsym $mod+j exec konsole -e jshell ~/init.java
 bindsym $mod+n exec konsole -e nix repl '<nixpkgs>'
 bindsym $mod+e exec dolphin -stylesheet ~/.config/qt5ct/qss/DolphinFix.qss 
 
-bindsym Print exec escrotum '%Y-%m-%d-screenshot.png' -e 'notify-send "Screenshot" "Saved at $f"'
+bindsym Print exec escrotum '%Y-%m-%d-%H%M%S-screenshot.png' -e 'notify-send "Screenshot" "Saved at $f"'
 
 
 # 'pin' windows that are floating
