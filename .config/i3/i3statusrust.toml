@@ -23,6 +23,14 @@ speed_up = false
 speed_down = false
 bitrate = false
 
+#[[block]]
+#block = "net"
+#device = "enp0s20f0u4"
+#ip = true
+#speed_up = false
+#speed_down = false
+#bitrate = false
+
 [[block]]
 block = "splitstatus"
 

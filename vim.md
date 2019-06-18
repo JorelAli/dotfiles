@@ -46,3 +46,7 @@ When opening a file, if you want to go back to where you were last editing somet
 ## 12th May 2019
 ### Remove highlighting when searching for something
 When you search for stuff in neovim, it highlights all instances that it finds. To "unhighlight" it, you can use the `:noh` command.
+
+## 18th June 2019
+### Vim sessions!
+To save a vim session (files opened, vim window splits etc) you can use `:mksession <sessionName>` to create a session. This stores the session in a file called `<sessionName>` (with whatever filetype you put at the end of it) in the current working directory. To load a session, you can use `:source <sessionName>` to load that session
