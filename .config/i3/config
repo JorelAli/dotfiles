@@ -37,7 +37,8 @@ bindsym $mod+space exec konsole
 bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+q exec google-chrome-stable 
 bindsym $mod+Shift+n exec google-chrome-stable --incognito
-bindsym $mod+j exec konsole -e jshell ~/init.java
+bindsym $mod+j exec konsole -e nixos-container login jshell 
+#~/init.java
 bindsym $mod+n exec konsole -e nix repl '<nixpkgs>'
 bindsym $mod+e exec dolphin -stylesheet ~/.config/qt5ct/qss/DolphinFix.qss 
 
