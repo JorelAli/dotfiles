@@ -1,6 +1,6 @@
 configuration {
-/*	modi: "window,run,ssh";*/
-	width: 100;
+/*	modi: "window,run,ssh,drun";*/
+	width: 50;
 /*	lines: 15;*/
 /*	columns: 1;*/
 /*	font: "mono 12";*/
@@ -11,7 +11,7 @@ configuration {
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
 /*	show-icons: false;*/
-/*	terminal: "rofi-sensible-terminal";*/
+	terminal: "konsole";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host}";*/
 /*	run-command: "{cmd}";*/
@@ -138,3 +138,12 @@ configuration {
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
 rofi.theme: /home/jorel/.config/rofi/solarized_alternate.rasi
+rofi.width: 50
+rofi.modi: window,run,ssh,drun
+rofi.font: Fira Code Medium 14
+rofi.terminal: Konsole
+rofi.padding: 50
+rofi.show-icons: true
+rofi.cycle: false
+rofi.sort: true
+rofi.hide-scrollbar: true 
