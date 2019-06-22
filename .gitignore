@@ -64,6 +64,9 @@
 !.config/konsolerc
 !.local/share/konsole/*
 
+# Kitty configuration - Configuration for the kitty terminal
+!.config/kitty/kitty.conf
+
 # Vim log - A log of all of the stuff that I've learnt in vim
 !vim.md
 

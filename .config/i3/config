@@ -1,5 +1,6 @@
 # Use the 'Windows (super) key as my modifier
 set $mod Mod4
+set $terminal kitty
 
 # Set default font to Fira Code Medium
 font pango:Fira Code Medium 12
@@ -33,13 +34,14 @@ bindsym XF86AudioPrev exec playerctl previous
 floating_modifier $mod
 
 # App launchers
-bindsym $mod+space exec konsole
+bindsym $mod+space exec $terminal 
 bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+q exec google-chrome-stable 
 bindsym $mod+Shift+n exec google-chrome-stable --incognito
-bindsym $mod+j exec konsole -e nixos-container login jshell 
+bindsym $mod+j exec $terminal -e nixos-container login jshell 
 #~/init.java
-bindsym $mod+n exec konsole -e nix repl '<nixpkgs>'
+bindsym $mod+k exec $terminal 
+bindsym $mod+n exec $terminal -e nix repl '<nixpkgs>'
 bindsym $mod+e exec dolphin -stylesheet ~/.config/qt5ct/qss/DolphinFix.qss 
 
 bindsym Print exec escrotum '%Y-%m-%d-%H%M%S-screenshot.png' -e 'notify-send "Screenshot" "Saved at $f"'
