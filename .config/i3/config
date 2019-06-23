@@ -43,6 +43,7 @@ bindsym $mod+j exec $terminal -e nixos-container login jshell
 bindsym $mod+k exec $terminal 
 bindsym $mod+n exec $terminal -e nix repl '<nixpkgs>'
 bindsym $mod+e exec dolphin -stylesheet ~/.config/qt5ct/qss/DolphinFix.qss 
+bindsym $mod+m exec google-play-music-desktop-player
 
 bindsym Print exec escrotum '%Y-%m-%d-%H%M%S-screenshot.png' -e 'notify-send "Screenshot" "Saved at $f"'
 
