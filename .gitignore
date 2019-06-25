@@ -31,10 +31,6 @@
 
 ### Configuration files ###########################################
 
-# i3 configuration - Configuration for the i3 window manager. 
-# Includes configuration file for i3 and i3status-rs (status bar)
-!.config/i3/*
-
 # qt5 configuration - Configuration for the qt5 GUI toolkit to set
 # custom themes. Utilise it with the `qt5ct` command
 !.config/qt5ct/*
