@@ -72,7 +72,3 @@
 # Face icons - Icons for the desktop lockscreen sddm
 !.face
 !.face.icon
-
-# Bin directory - Sneaky scripts which are added to my $PATH
-!./bin
-!./bin/*
