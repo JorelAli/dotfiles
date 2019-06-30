@@ -72,3 +72,6 @@
 # Face icons - Icons for the desktop lockscreen sddm
 !.face
 !.face.icon
+
+# Qutebrowser's configuration - Configuration for qutebrowser
+!.config/qutebrowser/autoconfig.yml
