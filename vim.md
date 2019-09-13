@@ -50,3 +50,13 @@ When you search for stuff in neovim, it highlights all instances that it finds. 
 ## 18th June 2019
 ### Vim sessions!
 To save a vim session (files opened, vim window splits etc) you can use `:mksession <sessionName>` to create a session. This stores the session in a file called `<sessionName>` (with whatever filetype you put at the end of it) in the current working directory. To load a session, you can use `:source <sessionName>` to load that session
+
+## 12th September 2019
+### Vim shared clipboards
+If you have multiple vim instances spread across multiple vim sessions, it's often difficult to copy and paste between them. This is easily handled using shared clipboards, which is done using the setting `set clipboard^=unnamed`. The significance of the `^=` operator is that it prepends it to the current existing setting. For example, if the setting is "blah", it will set it to "unnamed, blah".
+
+### Viewing current settings
+You can use the ? operator after the `:set` command to view a setting. For example, to view the current clipboard setting, you'd use `:set clipboard?`
+
+### Activating spell check
+When a squiggly line appears under a word in vim, you can put your cursor over it and enter `z=` to bring up the list of suggestions to replace it with.
