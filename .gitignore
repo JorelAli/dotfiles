@@ -75,3 +75,4 @@
 
 # Qutebrowser's configuration - Configuration for qutebrowser
 !.config/qutebrowser/autoconfig.yml
+!.config/qutebrowser/customtheme.py
