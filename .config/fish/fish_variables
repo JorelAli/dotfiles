@@ -4,7 +4,7 @@ SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
 SETUVAR bookmarks:/home/jorel
-SETUVAR budspencer_colors:ffffff\x1e073642\x1e6c71c4\x1effffff\x1eb58900\x1ecb4b16\x1edc322f\x1ed33682\x1e268bd2\x1e073642\x1e268bd2\x1e00ff00
+SETUVAR budspencer_colors:ffffff\x1e360036\x1eda06ef\x1effffff\x1efec418\x1ecb4b16\x1eef6155\x1ed33682\x1e06b6ef\x1e360036\x1e06b6ef\x1e48b685
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23073642\x5c007\x1e\x5c033\x5d12\x3b\x23b58900\x5c007\x1e\x5c033\x5d12\x3b\x23d33682\x5c007\x1e\x5c033\x5d12\x3b\x23268bd2\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
 SETUVAR budspencer_night:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
