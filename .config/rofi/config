@@ -137,7 +137,7 @@ configuration {
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-rofi.theme: /home/jorel/.config/rofi/solarized_alternate.rasi
+rofi.theme: /home/jorel/.config/rofi/nix_generated.rasi
 rofi.width: 50
 rofi.modi: window,run,ssh,drun
 rofi.font: Fira Code Medium 14
