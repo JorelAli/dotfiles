@@ -60,3 +60,7 @@ You can use the ? operator after the `:set` command to view a setting. For examp
 
 ### Activating spell check
 When a squiggly line appears under a word in vim, you can put your cursor over it and enter `z=` to bring up the list of suggestions to replace it with.
+
+## 3rd October 2019
+### LaTeX editing environment
+Use of the vim-latex-live-preview is great. It's started up by using `:LLPStartPreview` and will open a PDF viewer of your choice.
