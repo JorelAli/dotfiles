@@ -1,0 +1,60 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": false,
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "hidden",
+    "window.customMenuBarAltFocus": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#660066",//accent: da06ef
+        "statusBar.noFolderBackground" : "#660066",
+        "statusBar.debuggingBackground": "#48b685",
+
+        "sideBar.background": "#360036",
+        "sideBar.foreground": "#93a1a1",
+        "sideBar.border": "#360036",
+        "sideBarTitle.foreground": "#93a1a1",
+        "sideBarSectionHeader.background": "#660066",
+        "sideBarSectionHeader.border": "#660066",
+
+        "tab.activeBackground": "#660066",
+        "tab.inactiveBackground": "#360036",
+        "tab.border": "#360036",
+
+        "list.hoverBackground": "#660066",
+        "list.activeSelectionBackground": "#660066",
+        "list.inactiveSelectionBackground": "#660066",
+        "list.focusBackground": "#660066",
+
+        "editorGroup.border": "#660066",
+        "editorGroupHeader.tabsBackground": "#360036",
+
+        "editor.background": "#360036",
+        "editor.lineHighlightBorder": "#660066",
+        "editor.findMatchHighlightBackground": "#660066",
+        
+        "editorHoverWidget.background": "#360036",
+        "editorHoverWidget.border": "#660066",
+
+        "input.background": "#660066",
+        
+        "editorWidget.background": "#360036",
+        "editorWidget.border": "#660066",
+
+        "editorIndentGuide.background": "#660066",
+        "editorIndentGuide.activeBackground": "#da06ef",
+
+        "scrollbar.shadow": "#660066",
+        "scrollbarSlider.activeBackground": "#da06ef",
+        "scrollbarSlider.background": "#660066",
+        "scrollbarSlider.hoverBackground": "#da06ef",
+        
+        "widget.shadow": "#660066",
+                
+        "activityBar.background": "#660066",
+        "activityBar.border": "#660066",
+
+    }
+}
