@@ -73,7 +73,7 @@ else
 		if test $last_status = 0
 			notify-send "Terminal" "$history[1]"
 		else
-			notify-send -u critical "Terminal" "$history[1]"
+			notify-send -u critical "Terminal" "$history[1] ($last_status)"
 		end
 	end
   end
