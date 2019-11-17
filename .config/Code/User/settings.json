@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "editor.fontLigatures": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,

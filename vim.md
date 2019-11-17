@@ -64,3 +64,7 @@ When a squiggly line appears under a word in vim, you can put your cursor over i
 ## 3rd October 2019
 ### LaTeX editing environment
 Use of the vim-latex-live-preview is great. It's started up by using `:LLPStartPreview` and will open a PDF viewer of your choice.
+
+## 13th November 2019
+### Converting DOS line endings to unix ones
+You can type `:set ff=unix` to convert all \r\n line endings into \n line endings
