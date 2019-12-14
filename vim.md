@@ -41,7 +41,7 @@ To delete from the current position to the end of the line, do NOT use `dt` (del
 
 ## 4th May 2019
 ### Go back to last location
-When opening a file, if you want to go back to where you were last editing something, you can type `'"` to go back to that previous location, or even easier: ``.``
+When opening a file, if you want to go back to where you were last editing something, you can type `'"` to go back to that previous location, or even easier: `\`.`
 
 ## 12th May 2019
 ### Remove highlighting when searching for something

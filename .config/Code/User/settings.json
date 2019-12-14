@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "workbench.startupEditor": "newUntitledFile",
     "breadcrumbs.enabled": true,
     "editor.fontLigatures": true,
@@ -56,5 +56,8 @@
         "activityBar.background": "#660066",
         "activityBar.border": "#660066",
 
+    },
+    "[elm]": {
+        "editor.tabSize": 2
     }
 }
