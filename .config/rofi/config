@@ -141,7 +141,7 @@ rofi.theme: /home/jorel/.config/rofi/nix_generated.rasi
 rofi.width: 50
 rofi.modi: window,run,ssh,drun
 rofi.font: Fira Code Medium 14
-rofi.terminal: Konsole
+rofi.terminal: kitty 
 rofi.padding: 50
 rofi.show-icons: true
 rofi.cycle: false
