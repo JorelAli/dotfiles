@@ -41,4 +41,4 @@ settings:
       packages: https://nixos.org/nixos/packages.html#{}
       r/: https://reddit.com/r/{}
   url.start_pages:
-    global: http://localhost:1000
+    global: file:///etc/qutebrowserhomepage.html
