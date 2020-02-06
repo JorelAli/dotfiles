@@ -68,3 +68,7 @@ Use of the vim-latex-live-preview is great. It's started up by using `:LLPStartP
 ## 13th November 2019
 ### Converting DOS line endings to unix ones
 You can type `:set ff=unix` to convert all \r\n line endings into \n line endings
+
+## 5th February 2020
+### Deleting from the start of a line to the cursor
+Using `d0` deletes all of the text from the start of the line to the current cursor.
