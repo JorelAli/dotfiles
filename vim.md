@@ -41,7 +41,7 @@ To delete from the current position to the end of the line, do NOT use `dt` (del
 
 ## 4th May 2019
 ### Go back to last location
-When opening a file, if you want to go back to where you were last editing something, you can type `'"` to go back to that previous location, or even easier: `\`.`
+When opening a file, if you want to go back to where you were last editing something, you can type `'"` to go back to that previous location, or even easier: \`.
 
 ## 12th May 2019
 ### Remove highlighting when searching for something
@@ -72,3 +72,10 @@ You can type `:set ff=unix` to convert all \r\n line endings into \n line ending
 ## 5th February 2020
 ### Deleting from the start of a line to the cursor
 Using `d0` deletes all of the text from the start of the line to the current cursor.
+
+## 28th March 2020
+### Deleting sentences in markdown
+You can delete sentences using `das`, which stands for 'delete around sentence'
+
+### Moving the cursor to the middle of the page
+Sometimes, the cursor is not where you want it! Especially when writing markdown for example, sometimes you want the cursor in a specific location (not at the top/bottom of the page). Using `zz` moves the cursor to the middle (vertically) of the screen.
