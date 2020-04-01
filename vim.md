@@ -79,3 +79,6 @@ You can delete sentences using `das`, which stands for 'delete around sentence'
 
 ### Moving the cursor to the middle of the page
 Sometimes, the cursor is not where you want it! Especially when writing markdown for example, sometimes you want the cursor in a specific location (not at the top/bottom of the page). Using `zz` moves the cursor to the middle (vertically) of the screen.
+
+### Yank current character
+`yl` is used to yank the current character. Technically, it yanks the character to the right
