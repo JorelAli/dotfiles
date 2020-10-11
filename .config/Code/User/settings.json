@@ -59,5 +59,8 @@
     },
     "[elm]": {
         "editor.tabSize": 2
-    }
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/run/current-system/sw/bin/pylint"
 }
