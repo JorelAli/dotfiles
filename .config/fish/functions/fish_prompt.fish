@@ -678,7 +678,8 @@ end
 ####################
 function __budspencer_prompt_left_symbols -d 'Display symbols'
     set -l symbols_urgent 'F'
-    set -l symbols (set_color -b $budspencer_colors[2])''
+    #set -l symbols (set_color -b $budspencer_colors[2])''
+    set -l symbols (set_color -b 360037)''
 
     set -l jobs (jobs | wc -l | tr -d '[:space:]')
     if [ -e ~/.taskrc ]

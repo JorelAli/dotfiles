@@ -3,6 +3,7 @@
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR __fish_initialized:3100
 SETUVAR bookmarks:/home/jorel
 SETUVAR budspencer_colors:ffffff\x1e360036\x1eda06ef\x1effffff\x1efec418\x1ecb4b16\x1eef6155\x1ed33682\x1e06b6ef\x1e360036\x1e06b6ef\x1e48b685
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23360036\x5c007\x1e\x5c033\x5d12\x3b\x23fec418\x5c007\x1e\x5c033\x5d12\x3b\x23d33682\x5c007\x1e\x5c033\x5d12\x3b\x2306b6ef\x5c007
@@ -24,6 +25,7 @@ SETUVAR fish_color_error:brred
 SETUVAR fish_color_escape:bryellow\x1e\x2d\x2dbold
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:bryellow
